@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Madeha ❤️</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- PASSWORD SCREEN -->
+    <div id="password-screen" class="password-screen">
+
+        <div class="password-card">
+
+            <div class="lock">🔐</div>
+
+            <h2>A Little Secret...</h2>
+
+            <p>Enter the secret password to continue 💌</p>
+
+            <input
+                type="password"
+                id="password-input"
+                placeholder="Enter password"
+            >
+
+            <button onclick="checkPassword()">
+                Unlock ❤️
+            </button>
+
+            <p id="password-message"></p>
+
+        </div>
+
+    </div>
+
+
+    <!-- ENVELOPE SCREEN -->
+    <div class="container">
+
+        <h1>A little surprise for you, Madeha 💌</h1>
+
+        <div class="envelope" onclick="openEnvelope()">
+
+            <div class="flap"></div>
+
+            <div class="letter">
+            </div>
+
+            <div class="heart">♥</div>
+
+        </div>
+
+        <p class="tap">
+            Tap the heart to open ✨
+        </p>
+
+        <button class="continue-btn" onclick="showBirthday()">
+            Continue → ❤️
+        </button>
+
+    </div>
+
+
+    <!-- BIRTHDAY SCREEN -->
+    <div id="birthday-page" class="birthday-page">
+
+        <div class="sparkles">
+            ✨ ✨ ✨
+        </div>
+
+        <h2>
+            Happy Birthday, Madeha! 🎂
+        </h2>
+
+        <p class="subtitle">
+            Today is all about you 💕
+        </p>
+
+        <p class="small-message">
+            I made this little surprise just for you...
+        </p>
+
+        <button class="next-btn" onclick="nextSection()">
+            There's more... 💌
+        </button>
+
+    </div>
+
+
+    <!-- LETTER SECTION -->
+    <div id="letter-section" class="letter-section">
+
+        <div class="letter-card">
+
+            <div class="letter-decoration">
+                🤍
+            </div>
+
+            <h3>
+                For Madehuuuu 💕
+            </h3>
+
+            <p>
+                Happy birthday madehuuuuu 🤍
+            </p>
+
+            <p>
+                Happy Birthday Madehaaa ❤️🎂
+
+Honestly I dont even know how to start this 😭 but I just wanna say that I’m really glad your in my life. You have become really close to me and I genuinely value all the talks, laughs and memories we have together.
+
+Your fashion sense is actually soo good 😭✨ and your eyes are just awsomee, like seriously they are one of the best things about you. But more than all that, I really like the person you are.
+
+Now your in class 10, so I know studies and exams are gonna be a bit stressful 😭 but I hope you still enjoy everything and make lots of good memories.
+
+I hope this birthday brings you lots of happiness, success and many reasons to smile. Keep being the same crazy, sweet and amazing person you are. ❤️
+
+I’m really lucky to have someone like you so close to me. Thank you for being there and for all the small moments that mean alot more than you probably realise.
+
+Once again, Happy Birthday Madeha 🫶🏻❤️
+I hope you have the best birthday everrr and enjoy your dayy! 🎂✨
+
+            </p>
+
+            <p class="signature">
+                — With lots of love ♡
+            </p>
+
+            <button class="next-btn" onclick="showMemories()">
+                Our Memories 📸
+            </button>
+
+        </div>
+
+    </div>
+<!-- MEMORIES SECTION -->
+<div id="memories-section" class="memories-section">
+
+    <h2>Our Memories 📸</h2>
+
+    <p>Some moments worth keeping forever 🤍</p>
+
+    <div class="memory-slides">
+
+        <!-- MEMORY 1 -->
+        <div class="memory-slide active" id="memory1">
+
+            <div class="photo-placeholder">
+                <img src="memory2.jpeg" alt="Memory 1">
+            </div>
+
+            <h3>(●'◡'●)</h3>
+
+            <p>
+                i hope u know cpr buz u just took my breath away🤍
+            </p>
+
+            <button class="final-btn" onclick="showMemory2()">
+                Next Memory → 📸
+            </button>
+
+        </div>
+
+
+        <!-- MEMORY 2 -->
+        <div class="memory-slide" id="memory2">
+
+            <div class="photo-placeholder">
+                <img src="memory3.jpeg" alt="Memory 2">
+            </div>
+
+            <h3>╰(*°▽°*)╯</h3>
+
+            <p>
+                i wasn't planning to fall today but ur picture pushed me 🧲 🤍
+            </p>
+
+            <button class="final-btn" onclick="showMemory3()">
+                Next Memory → 📸
+            </button>
+
+        </div>
+
+
+        <!-- MEMORY 3 -->
+        <div class="memory-slide" id="memory3">
+
+            <div class="photo-placeholder">
+                <img src="memory4.jpeg" alt="Memory 3">
+            </div>
+
+            <h3>(●ˇ∀ˇ●)</h3>
+
+            <p>
+                is it really u or ai finally became perfect 🤍
+            </p>
+
+            <button class="final-btn" onclick="showMemory4()">
+                Next Memory → 📸
+            </button>
+
+        </div>
+
+
+        <!-- MEMORY 4 -->
+        <div class="memory-slide" id="memory4">
+
+            <div class="photo-placeholder">
+                <img src="memory5.jpeg" alt="Memory 4">
+            </div>
+
+            <h3>🥹🤍</h3>
+
+            <p>
+                Are you a sunset? Because somehow you make every moment beautiful. 🌅
+            </p>
+
+            <button class="final-btn" onclick="showMemory5()">
+                Next Memory → 📸
+            </button>
+
+        </div>
+
+
+        <!-- MEMORY 5 -->
+        <div class="memory-slide" id="memory5">
+
+            <div class="photo-placeholder">
+                <img src="memory6.jpeg" alt="Memory 5">
+            </div>
+
+            <h3>💗✨</h3>
+
+            <p>
+                Every memory with you is a little more special. 🥹
+            </p>
+
+            <button class="final-btn" onclick="showMemory6()">
+                Next Memory → 📸
+            </button>
+
+        </div>
+
+
+        <!-- MEMORY 6 -->
+        <div class="memory-slide" id="memory6">
+
+            <div class="photo-placeholder">
+                <img src="memory7.jpeg" alt="Memory 6">
+            </div>
+
+            <h3>🫠💕</h3>
+
+            <p>
+                How do you make even ordinary moments feel special? 😭
+            </p>
+
+            <button class="final-btn" onclick="showMemory7()">
+                Next Memory → 📸
+            </button>
+
+        </div>
+
+
+        <!-- MEMORY 7 -->
+        <div class="memory-slide" id="memory7">
+
+            <div class="photo-placeholder">
+                <img src="memory8.jpeg" alt="Memory 7">
+            </div>
+
+            <h3>🌷🤍</h3>
+
+            <p>
+                One picture, a thousand little memories. 📸✨
+            </p>
+
+            <button class="final-btn" onclick="showMemory8()">
+                Next Memory → 📸
+            </button>
+
+        </div>
+
+
+        <!-- MEMORY 8 -->
+        <div class="memory-slide" id="memory8">
+
+            <div class="photo-placeholder">
+                <img src="memory9.jpeg" alt="Memory 8">
+            </div>
+
+            <h3>😭💗</h3>
+
+            <p>
+                Some people just make life a little brighter. ✨
+            </p> 
+            
+            <button class="final-btn" onclick="showVideo()">
+                There is a video for you 🎥
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+    <!-- VIDEO SECTION -->
+    <div id="video-section" class="video-section">
+
+        <h2>
+            A Little Video For You 🎥🤍
+        </h2>
+
+        <p>
+            Some moments I wanted you to see...
+        </p>
+        <div class="video-card">
+
+            <video controls playsinline>
+
+                <source src="birthday-video.mp4" type="video/mp4">
+
+                Your browser does not support the video.
+
+            </video>
+
+        </div>
+
+        <button class="final-btn" onclick="finalSurprise()">
+            One Last Surprise 🎁
+        </button>
+
+    </div>
+
+
+    <!-- FINAL SURPRISE -->
+    <div id="final-section" class="final-section">
+
+        <div class="final-hearts">
+            ♡ ♡ ♡
+        </div>
+
+        <h1>
+            HAPPY BIRTHDAY<br>
+            MADEHA! 🎂❤️
+        </h1>
+
+        <p>
+            You deserve all the happiness in the world. 🤍
+        </p>
+
+        <p class="final-note">
+            Thank you for being such a beautiful part of my life.
+            Keep smiling always. ✨
+        </p>
+
+        <div class="final-hearts">
+            ♡ ♡ ♡
+        </div>
+
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
